@@ -1,0 +1,96 @@
+(footprint "FuseHolder_Littelfuse_01530008Z_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Fuse"
+		(at 3.5 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0332a0cb-baf1-4d18-9a87-5e72d75501fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FuseHolder_ATM_THT_7.62mm"
+		(at 1.5 -3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "69bbae34-b0bd-4393-af13-617edb290f50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08cd4fa3-77a5-4602-a3a1-79f2c2f3a4ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53327883-e917-4a7e-8167-9b4a12a67b63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.69 -1.925)
+		(end 9.31 1.925)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "455ca10d-9606-4f0d-8141-370ca93d6334")
+	)
+	(fp_rect
+		(start -2.19 -2.425)
+		(end 9.81 2.425)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1e30342c-b35d-47d5-8b4e-caeb36aaeba9")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e2cf3b0-130d-4c64-9856-4e3066516eae")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 0)
+		(size 3 3)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aa8132a8-a635-4a48-8378-35daed5ad297")
+	)
+	(embedded_fonts no)
+)
