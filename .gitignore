@@ -1,0 +1,14 @@
+# STM32 Build Artifacts (Firmware)
+firmware/**/Debug/
+firmware/**/Release/
+firmware/**/.metadata/
+
+# KiCad Auto-Backups (Electronics)
+electronics/**/*-backups/
+electronics/**/*.bak
+electronics/**/*.bck
+
+# SolidWorks Temporary Lock Files (Mechanical)
+mechanical/**/~$*.sldprt
+mechanical/**/~$*.sldasm
+mechanical/**/~$*.slddrw
